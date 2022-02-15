@@ -55,6 +55,7 @@ figure{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 1.5em;
 } 
 
@@ -65,4 +66,20 @@ img{
 #img-caption {
     color: var(--text-base);
     margin: 0.8em;
+}
+
+.tribute-info
+{
+    display: flex;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 1.5em;
+}
+
+.info
+{
+    padding: 1em;
+    box-shadow: .5px .5px 0.5px 0.5px black;
 }
